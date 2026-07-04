@@ -1,0 +1,39 @@
+{
+    "name": "smony/filament-login-attempts",
+    "description": "Log login attempts to your Filament admin panel and protect it from brute-force attacks.",
+    "keywords": ["laravel", "filament", "login", "brute-force", "security"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "smony",
+            "email": "vova.symonchuk@gmail.com"
+        }
+    ],
+    "homepage": "https://github.com/smony/filament-login-attempts",
+    "support": {
+        "issues": "https://github.com/smony/filament-login-attempts/issues",
+        "source": "https://github.com/smony/filament-login-attempts"
+    },
+    "require": {
+        "php": "^8.2",
+        "filament/filament": "^4.0",
+        "jenssegers/agent": "^2.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Smony\\FilamentLoginAttempts\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Smony\\FilamentLoginAttempts\\FilamentLoginAttemptsServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
