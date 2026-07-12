@@ -1,6 +1,6 @@
 # Filament Login Attempts
 
-![Filament Login Attempts](art/banner.png)
+<img src="art/banner.png" alt="Filament Login Attempts" class="filament-hidden" />
 
 [![Latest Version](https://img.shields.io/packagist/v/smony/filament-login-attempts.svg)](https://packagist.org/packages/smony/filament-login-attempts)
 [![Total Downloads](https://img.shields.io/packagist/dt/smony/filament-login-attempts.svg)](https://packagist.org/packages/smony/filament-login-attempts)
