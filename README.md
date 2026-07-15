@@ -11,7 +11,7 @@ Log every login attempt to your Filament admin panel and lock out brute-force at
 ## Requirements
 
 - PHP 8.2+
-- Filament v4
+- Filament v4, v5
 
 ## Installation
 
